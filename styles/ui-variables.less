@@ -11,13 +11,68 @@
 // A good start is to change the color of the `@base-background-color` variable.
 
 
+@bright-black:"hsla(0, 0%, 15%, 1)"; // Base 00 - Black
+@bright-red:"hsla(0, 60%, 61%, 1)"; // Base 08 - Red
+@bright-green:"hsla(60, 100%, 34%, 1)"; // Base 0B - Green
+@bright-yellow:"hsla(41, 100%, 50%, 1)"; // Base 0A - Yellow
+@bright-blue:"hsla(180, 20%, 60%, 1)"; // Base 0D - Blue
+@bright-magenta:"hsla(330, 48%, 68%, 1)"; // Base 0E - Magenta
+@bright-cyan:"hsla(120, 20%, 60%, 1)"; // Base 0C - Cyan
+@bright-white:"hsla(30, 48%, 72%, 1)"; // Base 05 - White
+
+@black:"hsla(0, 0%, 15%, 1)"; // Base 00 - Black
+@red:"hsla(0, 60%, 61%, 1)"; // Base 08 - Red
+@green:"hsla(60, 100%, 34%, 1)"; // Base 0B - Green
+@yellow:"hsla(41, 100%, 50%, 1)"; // Base 0A - Yellow
+@blue:"hsla(180, 20%, 60%, 1)"; // Base 0D - Blue
+@magenta:"hsla(330, 48%, 68%, 1)"; // Base 0E - Magenta
+@cyan:"hsla(120, 20%, 60%, 1)"; // Base 0C - Cyan
+@white:"hsla(30, 48%, 72%, 1)"; // Base 05 - White
+
+
+@dark-black            :hsla(195, 6%, 12%, 1);
+@dark-red              :hsla(6, 96%, 59%, 1);
+@dark-green            :hsla(61, 66%, 44%, 1);
+@dark-yellow           :hsla(42, 95%, 58%, 1);
+@dark-blue             :hsla(157, 16%, 58%, 1);
+@dark-magenta          :hsla(344, 47%, 68%, 1);
+@dark-cyan             :hsla(104, 35%, 62%, 1);
+@dark-white            :hsla(40, 38%, 73%, 1);
+@bright-black     :hsla(27, 10%, 36%, 1);
+@color16          :hsla(27, 99%, 55%, 1);
+@color16          :hsla(27, 99%, 55%, 1);
+@color17          :hsla(24, 88%, 45%, 1);
+@color18          :hsla(20, 5%, 22%, 1);
+@color19          :hsla(22, 7%, 29%, 1);
+@color20          :hsla(39, 24%, 66%, 1);
+@color21          :hsla(43, 59%, 81%, 1);
+@color_foreground :hsla(40, 38%, 73%, 1);
+@color_background :hsla(195, 6%, 12%, 1);
+
+@dark-black:"hsla(0, 0%, 15%, 1)"; // Base 00 - Black
+@dark-red:"hsla(0, 60%, 61%, 1)"; // Base 08 - Red
+@dark-green:"hsla(60, 100%, 34%, 1)"; // Base 0B - Green
+@dark-yellow:"hsla(41, 100%, 50%, 1)"; // Base 0A - Yellow
+@dark-blue:"hsla(180, 20%, 60%, 1)"; // Base 0D - Blue
+@dark-magenta:"hsla(330, 48%, 68%, 1)"; // Base 0E - Magenta
+@dark-cyan:"hsla(120, 20%, 60%, 1)"; // Base 0C - Cyan
+@dark-white:"hsla(30, 48%, 72%, 1)"; // Base 05 - White
+
+@bright-orange:"#ff8700"; // Base 09
+@dark-orange  :"#d65d0e"; // Base 0F
+@dark         :"#3a3a3a"; // Base 01
+@dark2        :"#4e4e4e"; // Base 02
+@gray         :"#949494"; // Base 04
+@light2       : "#d5c4a1"; // Base 06
+@ligh3        :"#dab997"; // Base 05
+
 // Text Colors
 @text-color:           hsl(0,0%,66%);
 @text-color-subtle:    hsl(0,0%,50%);
 @text-color-highlight: hsl(0,0%,94%);
 @text-color-selected:  hsl(0,0%,100%);
 
-@text-color-info:    hsl(219,  79%, 66%);
+@text-color-info:    @blue;
 @text-color-success: hsl(140,  44%, 62%);
 @text-color-warning: hsl( 36,  60%, 72%);
 @text-color-error:   hsl(  9, 100%, 64%);
@@ -33,7 +88,7 @@
 @app-background-color:       darken(@base-background-color, 5%);
 
 // Base colors
-@base-background-color: hsl(222,6%,22%);
+@base-background-color: hsla(222, 6%, 22%, 1);
 @base-border-color:     darken(@base-background-color, 8%);
 
 // Component colors
